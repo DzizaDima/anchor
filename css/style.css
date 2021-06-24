@@ -85,6 +85,14 @@ body {
   margin-right: 25%;
 }
 
+.navbar-brand img {
+  padding: 15px;
+}
+
+.footer-logo img {
+  padding: 20px;
+}
+
 .call-me__link {
   padding: 15px 40px;
   border: 1px solid white;
@@ -402,7 +410,7 @@ body {
 
 .footer-logo {
   text-align: center;
-  max-width: 250px;
+  max-width: 120px;
   margin: 0 auto;
 }
 
@@ -464,8 +472,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .social-icons--top {
-    display: none;
+  .header__info-wrap {
+    padding-bottom: 0;
   }
   .navv {
     -webkit-box-pack: justify;
