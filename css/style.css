@@ -87,6 +87,7 @@ body {
 
 .navbar-brand img {
   padding: 15px;
+  max-width: 100px;
 }
 
 .footer-logo img {
