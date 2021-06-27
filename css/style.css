@@ -440,6 +440,42 @@ h1, h2, h3, h4, h5, h6 {
   word-break: break-word;
 }
 
+.bi-whatsapp {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-instagram {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bi-instagram:hover {
+  color: #E1306C;
+}
+
+.bi-telegram {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bi-telegram:hover {
+  color: #0088cc;
+}
+
+.viber-ico {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.viber-ico:hover {
+  color: #665CAC;
+}
+
 @media screen and (max-width: 910px) and (min-width: 426px) {
   .navbar-brand {
     margin-right: 10px;
