@@ -62,7 +62,7 @@ body {
 }
 
 .main {
-  margin-top: 10vh;
+  margin-top: 9.5vh;
 }
 
 .header {
@@ -81,8 +81,19 @@ body {
     width: 100%;
 }*/
 .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 10%;
   margin-right: 25%;
+}
+
+.navbar-brand h1 {
+  font-size: 28px;
+  margin-bottom: 0;
 }
 
 .navbar-brand img {
@@ -95,7 +106,7 @@ body {
 }
 
 .call-me__link {
-  padding: 15px 40px;
+  padding: 10px 25px;
   border: 1px solid white;
   border-radius: 40px;
   font-size: 24px;
@@ -103,8 +114,8 @@ body {
 }
 
 .call-me__link:hover {
-  border: 1px solid green;
-  background-color: green;
+  border: 1px solid #276ace;
+  background-color: #276ace;
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
@@ -421,10 +432,12 @@ body {
   padding-top: 20px;
 }
 
-@media screen and (max-width: 1440px) {
-  .navbar-brand {
-    margin-right: 15%;
-  }
+.block-body__item {
+  word-break: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: break-word;
 }
 
 @media screen and (max-width: 910px) and (min-width: 426px) {
@@ -444,6 +457,9 @@ body {
   .container-fluid .row {
     width: 90%;
     margin: 0 auto;
+  }
+  .navbar-collapse .nav-link {
+    font-size: 24px;
   }
 }
 
@@ -480,7 +496,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 10px 0;
+    padding: 0px 0;
   }
   .call-me {
     margin-top: 30px;
@@ -518,7 +534,8 @@ body {
     padding: 40px;
   }
   .navbar-brand img {
-    min-width: 80px;
+    max-width: 40px;
+    padding: 5px;
   }
   .s-hidden {
     display: none;
@@ -529,6 +546,44 @@ body {
   }
   .title-block {
     font-size: 40px;
+  }
+  .layout-2 .row {
+    width: 100%;
+  }
+  .navbar-brand h1 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .checklist__check svg {
+    width: 25px;
+    height: 25px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .subtitle, .checklist__text {
+    font-size: 16px;
+  }
+  .call-me {
+    margin-top: 5px;
+  }
+  .call-me a {
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 786px) and (min-width: 426px) {
+  .navbar-expand-md .navbar-collapse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .call-me {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
