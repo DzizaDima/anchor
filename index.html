@@ -38,16 +38,18 @@
                     </div>
                     <div class="contacts">
                         <div class="contacts__item">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                           
+                              <a href="mailto:postfrancoport@gmail.com" class="d-none d-sm-inline"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                              </svg>
-                              <a href="mailto:postfrancoport@gmail.com" class="d-none d-sm-inline">postfrancoport@gmail.com</a>
+                              </svg>postfrancoport@gmail.com</a>
                         </div>
                         <div class="contacts__item">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            
+                              <a href="tel:+380 98 497 1001" class="d-none d-sm-inline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                              </svg>
-                              <a href="tel:+380 98 497 1001" class="d-none d-sm-inline">+380 98 497 1001</a>
+                              </svg> +380 98 497 1001</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +60,7 @@
                 <div class="row navv">
               <a class="navbar-brand" href="#">  
                   <img src="img/anchor_logo_blue.png" class="img-fluid" alt="">
-                  <h1>FRANCO <br> PORT LLC.</h1>
+                  <h1>FRANCO <br> PORT LLC</h1>
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -76,7 +78,7 @@
                   </li>
                 </ul>
                 <div class="call-me">
-                    <a href="#form-wrapper-2" class="call-me__link">Подзвонити мені</a>
+                    <a href="#layout-1" class="call-me__link">Подзвонити мені</a>
                 </div>
               </div>
               </div>
@@ -84,11 +86,11 @@
           </nav>
     </header>
     <div class="main">
-        <div class="container-fluid layout-1 ">
+        <div class="container-fluid layout-1 " id="layout-1">
             <div class="row">
                 <div class="col-lg-7">
-                    <h2 class="title">УСЛУГИ ТАМОЖЕННОГО БРОКЕРА</h2>
-                    <p class="subtitle mb-5">с финансовой ответственностью за юридическую безупречность оформления документации</p>
+                    <h2 class="title">ПОСЛУГИ МИТНОГО БРОКЕРА</h2>
+                    <p class="subtitle mb-5">з фінансовою відповідальністю за юридичну бездоганність оформлення документації</p>
                     <div class="checklist">
                         <div class="checklist__item">
                              <span class="checklist__check">
@@ -119,12 +121,12 @@
                 </div>
                 <div class="col-lg-5 ">
                   <div class="form-wrapper mx-auto">
-                    <h1 class="mt-3 mb-5">Заказать услуги</h1>
-                    <form action="https://formsubmit.co/dzizadima27@gmail.com" method="POST" class="top-form">
+                    <h1 class="mt-3 mb-5">Замовити послуги</h1>
+                    <form action="https://formsubmit.co/dzizadima27@gmail.com" method="POST" class="top-form" id="form">
                     <input type="text" name="name" placeholder="Name" required>
                     <input type="email" name="email" required placeholder="Email">
                     <input  class="" autocomplete="off" type="tel" placeholder="+38(___)___-__-__">
-                    <button type="submit" class="btn btn-success btn-lg">Send</button>
+                    <button type="submit" class="btn btn-success btn-lg">Надіслати</button>
                </form>
                   </div>
                   
@@ -242,13 +244,14 @@
    <footer class="footer">
      <div class="container-fluid">
        <div class="row">
-         <div class="col-lg-2 col-sm-12 ">
+         <div class="col-lg-12 col-sm-12 ">
              <div class="footer-logo">
            <img src="img/anchor_logo_blue.png" alt="" class="img-fluid">
+           <h1>FRANCO PORT LLC</h1>
          </div>
      
          </div>
-       <div class="col-lg-10 col-sm-12">   
+      <!--<div class="col-lg-10 col-sm-12">   
          <div class="contacts">
           <div class="contacts__item">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -264,7 +267,7 @@
                 <a href="tel:+380 98 497 1001" class="d-none d-sm-inline">+380 98 497 1001</a>
           </div>
       </div>
-    </div>
+    </div>--> 
        </div>
        <div class="row copyright">
          <span>Copyright 2021. All Rights Reserved.</span>
